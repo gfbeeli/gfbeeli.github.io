@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    color: #333;
+    color: #000000;
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #262626;
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -28,7 +28,7 @@ header p {
 }
 
 nav {
-    background-color: #34495e;
+    background-color: #333333;
     padding: 10px 0;
 }
 
@@ -64,7 +64,7 @@ main section {
 
 main h2 {
     font-size: 2em;
-    color: #2c3e50;
+    color: #1a1a1a;
 }
 
 main p {
@@ -72,8 +72,8 @@ main p {
 }
 
 footer {
-    background-color: #2c3e50;
-    color: white;
+    background-color: #1a1a1a;
+    color: #add8e6;
     text-align: center;
     padding: 20px 0;
 }
