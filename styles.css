@@ -88,4 +88,5 @@ footer p {
     background-position: left;
     background-repeat: no-repeat;
     height: 100px;
+    opacity: 0.5;
   }
