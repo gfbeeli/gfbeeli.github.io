@@ -81,3 +81,7 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+.image {
+    background-image: url('logo.jpeg');
+  }
