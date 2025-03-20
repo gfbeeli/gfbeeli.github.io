@@ -12,10 +12,10 @@ body {
 }
 
 header {
-    background-color: #262626;
-    color: white;
+    background-color: white;
+    color: #262626;
     padding: 40px 0;
-    text-align: center;
+    text-align: right;
 }
 
 header h1 {
@@ -84,4 +84,8 @@ footer p {
 
 .image {
     background-image: url('logo.jpeg');
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100px;
   }
