@@ -28,7 +28,7 @@ header p {
 }
 
 nav {
-    background-color: #333333;
+    background-color: #e6e6e6;
     padding: 10px 0;
 }
 
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #1a1a1a;
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -54,7 +54,7 @@ nav ul li a:hover {
 }
 
 main {
-    background-color: white;
+    background-color: #f2f2f2;
     padding: 40px 0;
 }
 
@@ -72,8 +72,8 @@ main p {
 }
 
 footer {
-    background-color: #1a1a1a;
-    color: #add8e6;
+    background-color: #d9d9d9;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }
