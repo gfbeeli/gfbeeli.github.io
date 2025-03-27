@@ -89,4 +89,21 @@ nav a {
     #menu-toggle:checked + .menu-icon + .nav-links {
         display: flex;
     }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        margin-bottom: 8px;
+        font-size: 1.8em;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    .header {
+        padding: 10px 7px;
+    }
 }
