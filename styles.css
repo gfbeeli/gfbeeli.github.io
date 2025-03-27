@@ -7,21 +7,12 @@
 body {
     font-family: 'Courier New', monospace;
     background-color: #f4f4f9;
-    color: #000000;
-}
-
-.container {
-    width: 95%;
-    margin: 0 auto;
+    color: black;
 }
 
 main {
     background-color: #f2f2f2;
-    padding: 40px 0;
-}
-
-main section {
-    margin-bottom: 40px;
+    padding: 30px;
 }
 
 footer {
@@ -29,10 +20,6 @@ footer {
     color: black;
     text-align: center;
     padding: 20px 0;
-}
-
-footer p {
-    font-size: 1em;
 }
 
 .logo {
@@ -58,4 +45,45 @@ nav ul {
 nav a {
     color: black;
     text-decoration: none;
+}
+
+/* Checkbox für das Menü verstecken */
+#menu-toggle {
+    display: none;
+}
+
+/* Burger-Icon */
+.menu-icon {
+    display: none;
+    font-size: 1.8EM;
+    cursor: pointer;
+    color: black;
+}
+
+/* Mobile Styling */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        background: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        padding: 15px;
+    }
+
+    /* Burger-Icon anzeigen */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Wenn Checkbox aktiv ist, Menü anzeigen */
+    #menu-toggle:checked + .menu-icon + .nav-links {
+        display: flex;
+    }
 }
